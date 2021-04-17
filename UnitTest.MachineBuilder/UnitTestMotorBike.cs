@@ -37,5 +37,16 @@ namespace UnitTest.MachineBuilder
             // Assertion
             Assert.AreEqual(isFailed, true);
         }
+
+        [TestMethod]
+        public void TestIfMotorBikeEngineSerialToBeNotTheSame()
+        {
+            // Initialization
+            MotorBike myMotor1 = vehicleBuilder.CreateMotorBike(2, 2, 150, 20f, 2000);
+            MotorBike myMotor2 = vehicleBuilder.CreateMotorBike(2, 2, 150, 20f, 2000);
+
+            // Assertion
+            Assert.AreNotEqual(myMotor1.Engine.ShowSerialNumber(), myMotor2.Engine.ShowSerialNumber());
+        }
     }
 }
