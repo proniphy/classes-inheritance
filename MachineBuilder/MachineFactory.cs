@@ -9,6 +9,7 @@ namespace MachineBuilder
             myBike.ForceEngine(2001);
             myBike.Engine.ShowSerialNumber();
             myBike.ForceEngine(1500);
+            myBike.ForceEngine(1000);
         }
     }
 }

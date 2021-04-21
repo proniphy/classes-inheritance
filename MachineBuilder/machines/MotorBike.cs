@@ -20,7 +20,7 @@ namespace MachineBuilder.machines
             }
             else
             {
-                Console.WriteLine("Engine made some noise with {0}", rpm);
+                Console.WriteLine("Engine made some noise with {0} rpm.", rpm);
             }
             return hasEngineFail;
         }
