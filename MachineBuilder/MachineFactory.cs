@@ -9,6 +9,12 @@ namespace MachineBuilder
             myBike.ForceEngine(2001);
             myBike.Engine.ShowSerialNumber();
             myBike.ForceEngine(1500);
+            
+            var denisBike = myMachineBuilder.CreateMotorBike(1, 2, 2000, 600f, 4000);
+            System.Console.WriteLine("Denis Info");
+            myBike.ForceEngine(2500);
+            myBike.Engine.ShowSerialNumber();
+            myBike.ForceEngine(8000);
         }
     }
 }
