@@ -6,5 +6,7 @@
         Fun,
         Travel,
         Work
+        Training
+
     }
 }
