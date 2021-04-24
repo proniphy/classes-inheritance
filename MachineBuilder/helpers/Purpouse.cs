@@ -5,8 +5,7 @@
         Sport,
         Fun,
         Travel,
-        Work
+        Work,
         Training
-
     }
 }
