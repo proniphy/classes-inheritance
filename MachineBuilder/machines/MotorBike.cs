@@ -29,5 +29,10 @@ namespace MachineBuilder.machines
             float speed = speedConst * rpm * gear;
             return speed;
         }
+        public void TravelDistance(int distance)
+        {
+            Console.WriteLine("{0} this distance was traveled.", distance);
+        }
+
     }
 }

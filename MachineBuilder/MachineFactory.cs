@@ -15,6 +15,9 @@ namespace MachineBuilder
             denisBike.ForceEngine(2500);
             denisBike.Engine.ShowSerialNumber();
             denisBike.ForceEngine(8000);
+
+            var iiiBike = myMachineBuilder.CreateMotorBike(5, 2, 1000, 140, 10000);
+            iiiBike.TravelDistance(500);
         }
     }
 }
