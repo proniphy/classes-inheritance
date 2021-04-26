@@ -1,12 +1,25 @@
-﻿using MachineBuilder.machines;
+﻿using MachineBuilder.helpers;
+using MachineBuilder.machines;
 using MachineBuilder.parts;
 
 namespace MachineBuilder
 {
     public class MachineConstructor
     {
+        private string brand;
         public static int machineCounter = 0;
-        public string Brand { get; set; }
+        public string Brand
+        {
+            get
+            {
+                return brand;
+            }
+            private set
+            {
+                Validator.ValidateString(value);
+                brand = value;
+            }
+        }
         public MachineConstructor(string brand)
         {
             Brand = brand;
