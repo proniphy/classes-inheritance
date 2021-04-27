@@ -29,5 +29,9 @@ namespace MachineBuilder.machines
             float speed = speedConst * rpm * gear;
             return speed;
         }
+        public void PriceForRepair(int price)
+        {
+            Console.WriteLine("The price to repair the engine will be {0}$", price);
+        }
     }
 }
