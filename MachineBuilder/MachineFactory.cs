@@ -1,3 +1,5 @@
+using MachineBuilder.machines;
+
 namespace MachineBuilder
 {
     class MachineFactory
@@ -15,6 +17,9 @@ namespace MachineBuilder
             denisBike.ForceEngine(2500);
             denisBike.Engine.ShowSerialNumber();
             denisBike.ForceEngine(8000);
+            System.Console.WriteLine($"Machine construktor brand is {myMachineBuilder.Brand}");
+
+            var mountainBicycle = new Bicycle(1, 2, 18);
         }
     }
 }
