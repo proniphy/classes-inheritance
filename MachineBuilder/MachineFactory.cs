@@ -15,6 +15,10 @@ namespace MachineBuilder
             denisBike.ForceEngine(2500);
             denisBike.Engine.ShowSerialNumber();
             denisBike.ForceEngine(8000);
+
+            var myAutomobile1 = myMachineBuilder.CreateAutomobile(200, 9100, 4);
+            myAutomobile1.PricePerHorsePower(myAutomobile1.Price, myAutomobile1.Power);
+            myAutomobile1.IsLowTax(myAutomobile1.Power);
         }
     }
 }
