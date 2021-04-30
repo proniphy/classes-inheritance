@@ -19,5 +19,11 @@ namespace MachineBuilder
 
             return myBike;
         }
+
+        public Automobile CreateAutomobile(int power, int price, int wheels)
+        {
+            Automobile myAutomobile = new Automobile(power, price, wheels);
+            return myAutomobile;
+        }
     }
 }
