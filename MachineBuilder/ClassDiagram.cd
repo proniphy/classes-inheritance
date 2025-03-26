@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MachineBuilder.helpers.Validator">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>helpers\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.machines.Bicycle">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>machines\Bicycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.machines.MotorBike">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAIAAAAAAAAAABAAAAAAAAABAAAAAAAAQA=</HashCode>
+      <FileName>machines\MotorBike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.machines.Vehicle">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>machines\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.parts.Engine">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAMAAAABAEIAAAAAAAA=</HashCode>
+      <FileName>parts\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.MachineConstructor">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>MachineConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MachineBuilder.MachineFactory">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MachineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MachineBuilder.parts.GearBox">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>parts\GearBox.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MachineBuilder.helpers.Purpose">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAAAAAAAAAAAAAAAAEAAAAACAAACAAAAAAAA=</HashCode>
+      <FileName>helpers\Purpose.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MachineBuilder.parts.Gear">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAQAAAAAAAAIAAAgAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>parts\GearBox.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
