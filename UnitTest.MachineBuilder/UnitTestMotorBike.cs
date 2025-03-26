@@ -19,7 +19,7 @@ namespace UnitTest.MachineBuilder
 
             // Assertion
             Assert.AreEqual(myMotor.Wheels, 2);
-            Assert.AreEqual(myMotor.Purpouse, Purpouse.Travel);
+            Assert.AreEqual(myMotor.Purpose, Purpose.Travel);
             Assert.AreEqual(myMotor.Engine.Volume, 150f);
             Assert.AreEqual(myMotor.Engine.Power, 20f);
             Assert.AreEqual(myMotor.Engine.MaxRPM, 2000);
