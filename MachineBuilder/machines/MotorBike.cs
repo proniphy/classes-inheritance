@@ -7,8 +7,15 @@ namespace MachineBuilder.machines
     {
         public const float speedConst = 0.5f;
         public Engine Engine { get; set; }
-        public MotorBike(int purpouse, int wheels) : base(purpouse, wheels)
+        public GearBox GearBox { get; private set; }
+        public MotorBike(int purpose, int wheels) : base(purpose, wheels)
         {
+            GearBox = new GearBox();
+        }
+        public MotorBike(int purpose, int wheels, int volume, float power, int maxRPM)
+            : this(purpose, wheels)
+        {
+            Engine = new Engine(volume, power, maxRPM);
         }
         public bool ForceEngine(int rpm)
         {
@@ -28,6 +35,10 @@ namespace MachineBuilder.machines
         {
             float speed = speedConst * rpm * gear;
             return speed;
+        }
+        public void RideBike()
+        {
+            this.Ride();
         }
     }
 }

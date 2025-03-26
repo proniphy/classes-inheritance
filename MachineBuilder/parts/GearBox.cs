@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MachineBuilder.parts
+﻿namespace MachineBuilder.parts
 {
     public enum Gear
     {
@@ -15,7 +11,11 @@ namespace MachineBuilder.parts
     }
     public struct GearBox
     {
-        public Gear Gear { get; set; }
+        public Gear Gear { get; private set; }
+        public GearBox()
+        {
+            Gear = Gear.None;
+        }
         public bool ShiftUp()
         {
             bool isShifted = false;
