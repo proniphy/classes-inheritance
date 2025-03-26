@@ -2,7 +2,7 @@
 
 namespace MachineBuilder.helpers
 {
-    internal class Validator
+    internal static class Validator
     {
         internal static void ValidateIfPositive(int number)
         {
