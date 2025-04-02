@@ -1,13 +1,18 @@
-﻿using MachineBuilder.helpers;
+﻿using System;
+using MachineBuilder.helpers;
 
 namespace MachineBuilder.machines
 {
     public class Bicycle : Vehicle
     {
-        public Purpouse Purpouse { get; set; }
-        public Bicycle(int purpouse, int wheels) : base(wheels)
+        public Purpose Purpose { get; private set; }
+        public Bicycle(int purpose, int wheels) : base(wheels)
         {
-            Purpouse = (Purpouse) purpouse;
+            Purpose = (Purpose) purpose;
+        }
+        protected void Ride()
+        {
+            Console.WriteLine("Bicycle is running!");
         }
     }
 }
